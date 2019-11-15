@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Set Variables */
+
+:root {
+    --main-color: #2667FF;
+    --light-text: #888888; 
+}
+
+/* --- Navbar styling -- */
+
+.navbar-brand {
+    color: var(--main-color);
+}
+.logo{
+    margin: 5px 0 0 60px;
+    width: 30%;
+}
+
+.bg-light{
+    background: none !important;
+}
+.nav-link{
+    color: var(--main-color);  
+}
+
+/* --- Hero Styling -- */
+
+.main{
+    margin: 50px auto 0;
+    width: 50%;
+}
+
+.heroImage{
+    width: 100%;
+}
+
+.cover-heading{
+    text-align: center;
+    margin-top: 120px;
+    color: var(--main-color);
+}
+
+.lead{
+    text-align: center;
+    color: #888888;
+}
+
+.links{
+    text-align: center;
+    
+}
+.links a {
+    color: #ff6700;
+    
+}
+
+/* -- Skills table -- */
+
+
+
+.skills i{
+    color: var(--main-color);
+    margin: 20px 0;
+    font-size: 30px;
+    width: 100px;
+    margin: 30px 0 35px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.skills h4{
+    margin-bottom: 20px;
+}
+.text{
+    line-height: 35px;
+    padding: 0 15px;
+    color: var(--light-text);
+}
+
+.skillTitle {
+    color: var(--main-color);
+}
+
+
+
+.skills .col-4{
+    text-align: center;
+}
+
+.software{
+    border-right: 1px solid rgba(39, 39, 38, 0.11)
+}
+.frontEnd{
+    border-right: 1px solid rgba(39, 39, 38, 0.11)
+}
+
+.card{
+    z-index: 10;
+    width: 95%;
+    margin: 80px auto 0;
+    border-radius: 10px;
+    background: #fff;
+}
+
+ul{
+    list-style-type: none;
+    color: var(--light-text);
+}
+
+/* -- Section Spacer -- */
+
+section{
+    margin-top: -300px;
+    height: 500px;
+    background: var(--main-color);
+    position: relative;
+}
+
+
+/* -- Footer styling -- */
+
+footer{
+    position: absolute;
+   color: #fff;
+   bottom: 0;
+}
+
+.btn{
+    width: 300px;
+    margin: auto;
+}
+
+
+/* -- Work page styling -- */
+
+.thumbnail{
+    width: 275px;
+}
+
