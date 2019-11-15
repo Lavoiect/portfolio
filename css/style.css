@@ -3,10 +3,14 @@
     margin: 0;
 }
 
+a:hover{
+    color: var(--main-color) !important;
+}
+
 /* Set Variables */
 
 :root {
-    --main-color: #2667FF;
+    --main-color: #F46036;
     --light-text: #888888; 
 }
 
@@ -16,8 +20,8 @@
     color: var(--main-color);
 }
 .logo{
-    margin: 5px 0 0 60px;
-    width: 30%;
+    margin: 5px 15px 0 60px;
+    width: 20%;
 }
 
 .bg-light{
@@ -118,7 +122,7 @@ ul{
 
 section{
     margin-top: -300px;
-    height: 500px;
+    height: 100%;
     background: var(--main-color);
     position: relative;
 }
@@ -126,10 +130,17 @@ section{
 
 /* -- Footer styling -- */
 
-footer{
-    position: absolute;
-   color: #fff;
-   bottom: 0;
+.footer{
+  padding-top: 350px;
+  text-align: center;
+}
+
+.logoFooter {
+    width: 10%;
+}
+
+.spacer{
+    margin-top: 20px;
 }
 
 .btn{
