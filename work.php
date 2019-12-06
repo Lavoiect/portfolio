@@ -17,19 +17,29 @@ mysqli_close($conn);
 
 
 
-<h1>Work</h1>
 
-
+<div class="container">
+<h1 class="workTitle">Some of <span class="highlight">My Recent Work</span></h1>
+<div class="row">
 <?php foreach($workProjects as $work) : ?>
+    <div class="col-4 projects">
+
+    <?php if($work['p_image'] === '' ) : ?>
+    <p>No image</p>
+<?php else : ?>
     <img class="thumbnail" src="imgs/<?php echo $work['p_image'] ?>">
-    <p>Project Title:<?php echo $work['p_name'] ?> </p>
-    <p>Problem: <?php echo $work['p_problem'] ?> </p>
-    <p>Solution: <?php echo $work['p_solution'] ?></p>
-    <p>What I did: <?php echo $work['p_what'] ?></p>
-    <p>Technology used: <?php echo $work['p_tech'] ?></p>
-    <p>Project Overview: <?php echo $work['p_overview'] ?></p>
-    <a href="<?php echo URL_ROOT;?>project.php?id=<?php echo $work['id'] ?>">View More</a>
+<?php endif; ?>
+        
+        <p><?php echo $work['p_name'] ?> | <?php echo $work['p_type'] ?> </p>
+        <a href="<?php echo URL_ROOT;?>project.php?id=<?php echo $work['id'] ?>">Project Details</a>
+    </div>
 <?php endforeach; ?>
+</div>
+</div>
+
+
+
+
 
 
 <?php include('inc/footer.php') ?>

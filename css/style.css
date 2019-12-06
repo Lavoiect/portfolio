@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 a:hover{
     color: var(--main-color) !important;
 }
@@ -10,7 +11,7 @@ a:hover{
 /* Set Variables */
 
 :root {
-    --main-color: #F46036;
+    --main-color: #582F6B;
     --light-text: #888888; 
 }
 
@@ -35,36 +36,56 @@ a:hover{
 
 .main{
     margin: 50px auto 0;
-    width: 50%;
+    width: 80%;
 }
 
-.heroImage{
-    width: 100%;
+#computerIcon, #serverIcon {
+    width: 150px;
+    display: block;
+    margin: 70px auto 20px;
+}
+
+#backEnd, #frontEnd{
+    text-align: center;
+    color: var(--light-text);
 }
 
 .cover-heading{
     text-align: center;
-    margin-top: 120px;
+    margin-top: 90px;
     color: var(--main-color);
+    transform: translateY(0);
+
 }
 
 .lead{
     text-align: center;
     color: #888888;
+    opacity: 1;
 }
 
-.links{
+.sub-lead{
     text-align: center;
-    
+    color: #888888;
+    opacity: 1;
+    font-size: 16px;
 }
-.links a {
-    color: #ff6700;
-    
+
+.workLink a{
+    width: 100%;
+    background-color: var(--main-color);
+    color: #fff !important;
+    cursor: pointer;
 }
+
+
 
 /* -- Skills table -- */
 
-
+.skills{
+    z-index: 1;
+    height: 600px;
+}
 
 .skills i{
     color: var(--main-color);
@@ -92,7 +113,9 @@ a:hover{
     color: var(--main-color);
 }
 
-
+.skills li {
+    line-height: 35px;
+}
 
 .skills .col-4{
     text-align: center;
@@ -106,32 +129,42 @@ a:hover{
 }
 
 .card{
-    z-index: 10;
-    width: 95%;
-    margin: 80px auto 0;
+    width: 100%;
+    position: absolute;
+    top: 75px;
     border-radius: 10px;
     background: #fff;
+    transform: scaleX(0);
+    transform-origin:  right; 
+    z-index: 1; 
+    
 }
+
+.feContent{
+    opacity: 0;
+}
+
+.beContent{
+    opacity: 0;
+}
+
+
 
 ul{
     list-style-type: none;
     color: var(--light-text);
 }
 
-/* -- Section Spacer -- */
-
-section{
-    margin-top: -300px;
-    height: 100%;
+.background{
+    margin-top: 20px;
     background: var(--main-color);
-    position: relative;
+    height: 750px;
 }
 
 
 /* -- Footer styling -- */
 
 .footer{
-  padding-top: 350px;
   text-align: center;
 }
 
@@ -153,5 +186,19 @@ section{
 
 .thumbnail{
     width: 275px;
+}
+.highlight {
+    color: var(--main-color); 
+}
+
+.workTitle{
+    font-size: 60px;
+    padding: 80px;
+    text-align: center;
+    color: #888888;
+}
+
+.projects{
+    padding-bottom: 60px;
 }
 

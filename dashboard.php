@@ -1,7 +1,7 @@
 <?php 
 require('config/config.php');
 require('config/db.php');
-
+include('inc/header.php');
 
 $query = 'SELECT * FROM projects ORDER by id DESC';
 
@@ -26,9 +26,11 @@ mysqli_free_result($result);
 mysqli_close($conn);
 ?>
 
-<a class="btn btn-outline-primary" href="addWork.php">Add A work Project</a>
 
-<h1>Work</h1>
+
+<h1>Dashboard <i class="fas fa-columns"></i></h1>
+
+<a class="btn btn-outline-primary" href="addWork.php">Add A work Project</a>
 
 <?php foreach($workProjects as $work) : ?>
     <p>Project Title:<?php echo $work['p_name'] ?> </p>

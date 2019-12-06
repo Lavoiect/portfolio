@@ -3,7 +3,7 @@ require('config/config.php');
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="<?php echo URL_ROOT ?>"><img class="logo" src="imgs/logo.png">Chris Lavoie</a>
+  <a class="navbar-brand" href="<?php echo URL_ROOT ?>"><img class="logo" src="imgs/logo.png" alt=""> Chris Lavoie</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,6 +18,9 @@ require('config/config.php');
       </li>
       <li class="nav-item">
         <a class="nav-link p-2" href="#">Get in Touch</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link p-2" href="dashboard.php">Dashboard</a>
       </li>
       <li class="nav-item">
         <a class="nav-link p-2" href="https://www.linkedin.com/in/christopher-lavoie-41199594/" target="_blank"><i class="fab fa-linkedin-in"></i></a>

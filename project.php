@@ -21,11 +21,13 @@ mysqli_close($conn);
 
 ?>
 
+<div class="headerDetails">
+    <h1><?php echo $project['p_name'] ?> | <?php echo $project['p_type'] ?></h1>
+</div>
 
 
-<h1>Work</h1>
 
-    <p>Project:<?php echo $project['p_name'] ?> </p>
+
     <p>Problem: <?php echo $project['p_problem'] ?> </p>
     <p>Solution: <?php echo $project['p_solution'] ?></p>
     <p>What I did: <?php echo $project['p_what'] ?></p>

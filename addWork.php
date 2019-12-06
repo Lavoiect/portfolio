@@ -50,7 +50,9 @@ if(isset($_POST['submit'])){
 
 <?php include 'includes/header.php' ?>
 
-<h1>Add term</h1>
+<h1>Add Project</h1>
+
+
 
 <form method="POST" action="<?php $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data">
     <label>Project:</label>
@@ -69,10 +71,12 @@ if(isset($_POST['submit'])){
     <input type="text" name="p_tech">
 
     <label>Overview</label>
-    <textarea id="" cols="30" rows="10" name="p_overview"></textarea>
+    <textarea cols="30" rows="10" name="p_overview"></textarea>
 
     <input type="hidden" name="size" value="1000000">
     <input type="file" name="p_image">
 
     <button type="submit" name="submit" value="submit">Add</button>
 </form>
+
+<?php include('inc/footer.php'); ?>
