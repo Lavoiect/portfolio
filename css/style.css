@@ -4,6 +4,7 @@
 }
 
 
+
 a:hover{
     color: var(--main-color) !important;
 }
@@ -39,46 +40,33 @@ a:hover{
     width: 80%;
 }
 
-#computerIcon, #serverIcon {
-    width: 150px;
-    display: block;
-    margin: 70px auto 20px;
-}
 
-#backEnd, #frontEnd{
-    text-align: center;
-    color: var(--light-text);
-}
-
-.cover-heading{
-    text-align: center;
-    margin-top: 90px;
-    color: var(--main-color);
-    transform: translateY(0);
-
-}
-
-.lead{
-    text-align: center;
-    color: #888888;
-    opacity: 1;
-}
-
-.sub-lead{
-    text-align: center;
-    color: #888888;
-    opacity: 1;
-    font-size: 16px;
-}
-
-.workLink a{
+#particles-js{
+    position: absolute;
     width: 100%;
+    z-index: -12;
+    height: 100%;
+}
+.main{
+   position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.workButton{
+    display: block;
+    margin: auto;
+    color: #fff;
+    width: 150px;
     background-color: var(--main-color);
-    color: #fff !important;
-    cursor: pointer;
 }
 
-
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+  }
 
 /* -- Skills table -- */
 
@@ -176,10 +164,6 @@ ul{
     margin-top: 20px;
 }
 
-.btn{
-    width: 300px;
-    margin: auto;
-}
 
 
 /* -- Work page styling -- */
@@ -199,6 +183,30 @@ ul{
 }
 
 .projects{
-    padding-bottom: 60px;
+    padding-bottom: 80px;
+}
+
+/* -- Details page styling -- */
+
+.projectTitle{
+    margin-top: 100px;
+}
+
+.featuredImage{
+    width: 35em;
+}
+
+.projectContainer{
+    margin-top: 85px;
+    padding: 0;
+}
+
+.backgroundColor {
+    height: 250px;
+    background: var(--main-color);
+}
+
+.backgroundColor p {
+    color: #fff;
 }
 

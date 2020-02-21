@@ -67,6 +67,11 @@ if(isset($_POST['submit'])){
     <label>What I did:</label>
     <input type="text" name="p_what">
 
+    <label>Technology Used:</label>
+    <input type="checkbox" name="p_tech" value="Angular">
+    <input type="checkbox" name="p_tech" value="HTML">
+    <input type="checkbox" name="p_tech" value="CSS">
+    
     <label>Technology:</label>
     <input type="text" name="p_tech">
 

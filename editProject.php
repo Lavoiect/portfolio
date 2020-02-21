@@ -65,8 +65,14 @@ mysqli_close($conn);
     <label>What I did:</label>
     <input type="text" name="p_what" value="<?php echo $project['p_what'] ?>">
 
-    <label>Technology:</label>
-    <input type="text" name="p_tech" value="<?php echo $project['p_tech'] ?>">
+    <label>Technology Used:</label>
+    <input type="checkbox" name="p_tech" value="Angular">
+    <input type="checkbox" name="p_tech" value="HTML">
+    <input type="checkbox" name="p_tech" value="CSS">
+    
+
+    <!-- 
+    <input type="text" name="p_tech" value="<?php echo $project['p_tech'] ?>"> -->
 
     <label>Overview</label>
     <textarea id="" cols="30" rows="10" name="p_overview"><?php echo $project['p_overview']?></textarea>

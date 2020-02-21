@@ -1,82 +1,30 @@
+
+
 <?php 
 include('inc/header.php')
 ?>
-
-<div class="container-fluid">
-    
-    <div class="row">
-        <div class="col-6">
-            <div class="card feCard">
-                <div class="feContent">
-                    <div class="card-body">
-                        <h4>Front-End Skills <button onclick="closeFrontEnd()"> <i class="fas fa-times-circle"></i> </button></h4>
-                        <p class="mb-4 text">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                        <p class="skillTitle">Front-End Experience: 4 years</p>
-                            <p class="skillTitle">Software I use:</p>
-                                <ul>
-                                    <li>Photoshop, Illustrator, XD, inVision, Visual Studio Code</li>
-                                </ul>
-                                <p class="skillTitle">Front-end languages I speak:</p>
-            <ul>
-                        <li>HTML, CSS, Javascript, Typescript, Sass</li>
-            </ul>
-                <p class="mt-5 skillTitle">Front-end frameworks I use:</p> 
-                    <ul>
-                        <li>Angular, Bootstrap</li>
-                    </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-6">
-        <div class="card beCard">
-                <div class="beContent">
-                <div class="card-body">
-                <h4>Back-End <button onclick="closeBackEnd()"><i class="fas fa-times-circle"></i></h4>
-                <p class="mb-4 text">I genuinely care about people, and love helping fellow designers work on their craft.</p>
-                <p class="skillTitle">Back-End Experience: less than 1 year</p>
-                <p class="skillTitle">Software I use:</p>
-                                <ul>
-                                    <li>Visual Studio Code, Sequel Pro</li>
-                                </ul>
-        <p class="skillTitle">Back-end languages I speak:</p> 
-                    <ul>
-                        <li>PHP, C#</li>
-                    </ul>
-                     <p class="mt-5 skillTitle">Frameworks:</p> 
-                    <ul>
-                        <li>Laraval</li>
-                    </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="particles-js">
+<div class="main">
+    <h1>Chris Lavoie</h1>
+    <h2>Web Application Developer</h2>
+    <p>Welcome to my page, look around and ask anyquestions.</p>
+    <p>Check out my recent projects.</p>
 </div>
 
-
-        
+</div>
+<svg id="clouds" alt="Gray Clouds Background" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
+    <path id="Path_39" data-name="Path 39" d="M2379.709,863.793c10-93-77-171-168-149-52-114-225-105-264,15-75,3-140,59-152,133-30,2.83-66.725,9.829-93.5,26.25-26.771-16.421-63.5-23.42-93.5-26.25-12-74-77-130-152-133-39-120-212-129-264-15-54.084-13.075-106.753,9.173-138.488,48.9-31.734-39.726-84.4-61.974-138.487-48.9-52-114-225-105-264,15a162.027,162.027,0,0,0-103.147,43.044c-30.633-45.365-87.1-72.091-145.206-58.044-52-114-225-105-264,15-75,3-140,59-152,133-53,5-127,23-130,83-2,42,35,72,70,86,49,20,106,18,157,5a165.625,165.625,0,0,0,120,0c47,94,178,113,251,33,61.112,8.015,113.854-5.72,150.492-29.764a165.62,165.62,0,0,0,110.861-3.236c47,94,178,113,251,33,31.385,4.116,60.563,2.495,86.487-3.311,25.924,5.806,55.1,7.427,86.488,3.311,73,80,204,61,251-33a165.625,165.625,0,0,0,120,0c51,13,108,15,157-5a147.188,147.188,0,0,0,33.5-18.694,147.217,147.217,0,0,0,33.5,18.694c49,20,106,18,157,5a165.625,165.625,0,0,0,120,0c47,94,178,113,251,33C2446.709,1093.793,2554.709,922.793,2379.709,863.793Z" transform="translate(142.69 -634.312)" fill="#eee"/>
+  </svg>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script>
+ 
+  particlesJS.load('particles-js', function() {
+  console.log('particles.js loaded - callback');
+});
+</script>
 
            
-<div class="main"> 
-    <h1 class="cover-heading">Web Developer</h1>
-    <p class="lead">I design and build web applictions.</p>
-    <p class="sub-lead lead">Check out my skills or Recent Work</p>
-    
-    <div class="row">
-        <div class="col-5"><img id="computerIcon" onclick="showFrontEnd()" src="imgs/Asset1.png"><p id="frontEnd" >Front-End</p>
-        </div>
-        <div class="col-2 workLink">
-            <a class="btn btn-primary" href="<?php echo URL_ROOT ?>work.php" >Recent Work</a>
-        </div>
-        <div class="col-5"><img id="serverIcon" onclick="showBackEnd()" src="imgs/Asset2.png"><p id="backEnd">Back-End</p>
-    </div>
-    </div>  
-</div> 
-</div>
-
-
-
 
 
 
