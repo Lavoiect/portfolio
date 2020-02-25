@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-
-
 a:hover{
     color: var(--main-color) !important;
 }
@@ -14,6 +12,16 @@ a:hover{
 :root {
     --main-color: #582F6B;
     --light-text: #888888; 
+}
+
+canvas {
+    display: block; 
+}
+
+.testMain{
+    position: absolute;
+    top: 100px;
+    margin-top: 70px;
 }
 
 /* --- Navbar styling -- */
