@@ -1,0 +1,412 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0f6e5499e799b587980bc7fffec23aa1b46a8f6f",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 32544,
+            "type": "VEC3",
+            "max": [
+                0.0039342246018350128,
+                0.04789826646447182,
+                0.009614421054720879
+            ],
+            "min": [
+                -0.004216783680021763,
+                0.04726026952266693,
+                -0.007368515711277723
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 32544,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 32544,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 48816,
+            "type": "SCALAR",
+            "max": [
+                32543.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 994106,
+            "type": "VEC3",
+            "max": [
+                0.013535972684621811,
+                0.04919926077127457,
+                0.013498310931026936
+            ],
+            "min": [
+                -0.013532214798033238,
+                -0.0003377834218554199,
+                -0.013452011160552502
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 994106,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 994106,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 1189878,
+            "type": "SCALAR",
+            "max": [
+                994105.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 79808,
+            "type": "VEC3",
+            "max": [
+                0.013157041743397713,
+                0.04880373552441597,
+                0.01315699890255928
+            ],
+            "min": [
+                -0.01315703522413969,
+                0.000014665353774034884,
+                -0.013157038018107415
+            ]
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 79808,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 79808,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 82848,
+            "type": "SCALAR",
+            "max": [
+                76610.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5125,
+            "count": 36864,
+            "type": "SCALAR",
+            "max": [
+                79807.0
+            ],
+            "min": [
+                103.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 390528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 390528,
+            "byteLength": 390528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 781056,
+            "byteLength": 260352,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1041408,
+            "byteLength": 195264,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1236672,
+            "byteLength": 11929272,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13165944,
+            "byteLength": 11929272,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 25095216,
+            "byteLength": 7952848,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 33048064,
+            "byteLength": 4759512,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 37807576,
+            "byteLength": 957696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 38765272,
+            "byteLength": 957696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 39722968,
+            "byteLength": 638464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 40361432,
+            "byteLength": 331392,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 40692824,
+            "byteLength": 147456,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 40840280,
+            "uri": "can_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "can_drink_body_normal",
+            "uri": "can_images/can_drink_body_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    1.0
+                ],
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "Pull Ring Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Liquid Material"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8299999833106995,
+                    0.8299999833106995,
+                    0.8299999833106995,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "normalTexture": {
+                "index": 0
+            },
+            "name": "Can Material",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "MODEL_CAN_DRINK_CONDENSATION_PART_2_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "MODEL_CAN_DRINK_CONDENSATION_PART_1_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 6,
+                        "NORMAL": 5,
+                        "POSITION": 4
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "MODEL_CAN_DRINK_CONDENSATION_PART_3_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 10,
+                        "NORMAL": 9,
+                        "POSITION": 8
+                    },
+                    "indices": 11,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "POSITION": 8,
+                        "NORMAL": 9,
+                        "TEXCOORD_0": 10
+                    },
+                    "indices": 12,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.4499981105327606,
+                0.20033778250217439,
+                0.4499768316745758
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4
+            ],
+            "translation": [
+                -0.0000018787383169183159,
+                0.0003377834218554199,
+                -0.000023149847038439476
+            ],
+            "name": "Beverage Can with Condensation"
+        },
+        {
+            "mesh": 0,
+            "name": "Pull Ring"
+        },
+        {
+            "mesh": 1,
+            "name": "Liquid"
+        },
+        {
+            "mesh": 2,
+            "name": "Can"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "MODEL_CAN_DRINK_CONDENSATION_MATERIAL_1::normal::sampler",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "scene": 0
+}
